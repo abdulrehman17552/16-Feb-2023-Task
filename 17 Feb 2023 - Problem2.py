@@ -18,8 +18,6 @@ def pop_n_elements_from_lifo_queue(num):
             return
         else:
             print("Elements poped from queue are: ",my_lifo_queue.get())
-    if my_lifo_queue.empty():
-        print("LIFO queue is now empty")
 
 while True:
     answer = input("Type 'add', 'pop' or 'exit' to perform an action: ")
